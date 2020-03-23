@@ -1,0 +1,30 @@
+.toolbar-wrapper {
+    width: fit-content;
+    margin: 0 auto;
+
+    .toolbar{
+        display: flex;
+        flex-direction: row;
+        margin: 0 0 5px 0;
+        justify-content: center;
+
+        input {
+            margin: 0 0 0 3px;
+        }
+    }
+
+}
+
+
+.array-element {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+.array-1d, array-2d {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    margin: 0 auto;
+}

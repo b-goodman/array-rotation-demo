@@ -1,26 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {FunctionComponent} from "react";
+import Rotate1DArray from "./components/Rotate1DArray";
+import Rotate2DArray from "./components/Rotate2DArray";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+interface Props {};
+
+
+const App: FunctionComponent<Props> = () => {
+
+    return <div>
+        <h1> Array Rotations</h1>
+        <div>
+            <h2>Rotate 1D Array</h2>
+            <Rotate1DArray />
+
+            <hr />
+            <h2>Rotate 2D Array</h2>
+            <Rotate2DArray />
+        </div>
     </div>
-  );
 }
 
 export default App;
