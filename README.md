@@ -1,3 +1,6 @@
+Try it out at [https://demos.thebgoodman.com/array-rotation/](https://demos.thebgoodman.com/array-rotation/)
+Read more about it at [https://blog.thebgoodman.com/article/Rotating_Arrays](https://blog.thebgoodman.com/article/Rotating_Arrays)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
